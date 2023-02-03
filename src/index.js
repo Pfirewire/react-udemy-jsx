@@ -11,8 +11,13 @@ const root = ReactDOM.createRoot(el);
 // create component
 function App() {
 
+    const name = 'Samantha';
+    const age = 23;
+
     return (
-        <h1>{new Date().toLocaleTimeString()}</h1>
+        <h1>
+            Hi, my name is {name} and my age is {age}
+        </h1>
     );
 }
 
