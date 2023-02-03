@@ -12,12 +12,7 @@ const root = ReactDOM.createRoot(el);
 function App() {
 
     return (
-        <input
-            style={{border: '3px solid red'}}
-            type="number"
-            min={5}
-            max={10}
-        />
+        <textarea autoFocus={true} />
     );
 }
 
